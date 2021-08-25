@@ -14,13 +14,13 @@ int main ()
         printf("%d ", array[index]);
     }
 
-    shell_sort(array, MAX_SIZE);
+    printf("\n\n\t -> Sorted Array: \n\n\t");
 
-    printf("\n\n\t -> Sorted Array: ");
+    shell_sort(array, MAX_SIZE, "knuth");
 
-    for (index = 0; index < MAX_SIZE; ++index) {
+    /*for (index = 0; index < MAX_SIZE; ++index) {
         printf("%d ", array[index]);
-    }
+    }*/
 
     printf("\n\n\n");
 }
